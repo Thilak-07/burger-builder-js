@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Burger</title>
+        <meta meta="" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="header">
+            <img src="burger.png"/>
+            <p class="title">Burger Builder</p>
+        </div>
+
+        <div class="container">
+            <div class="bread-top">
+                <div class="seeds"></div>
+                <div class="seeds2"></div>
+            </div>
+            <h2 class="add_ingredients">Please start adding Ingredients</h2>
+            <div class="saladhere"></div>
+            <div class="baconhere"></div>
+            <div class="cheesehere"></div>
+            <div class="meathere"></div>
+            <div class="bread-bottom"></div>
+        </div>
+
+        <div class="footer">
+            <div class="table">
+                <p>Current Price: $<strong class="total">4.00</strong></p>
+                <div class="salad_container">
+                    <div class="ingredient_name">Salad ($0.50)</div>
+                    <button class="Less btn" onclick="Less('salad')" disabled>Less</button>
+                    <button class="More btn" onclick="More('salad')">More</button>
+                </div>
+                <div class="bacon_container">
+                    <div class="ingredient_name">Bacon ($0.70)</div>
+                    <button class="Less btn" onclick="Less('bacon')" disabled>Less</button>
+                    <button class="More btn" onclick="More('bacon')">More</button>
+                </div>
+                <div class="cheese_container">
+                    <div class="ingredient_name">Cheese ($0.40)</div>
+                    <button class="Less btn" onclick="Less('cheese')" disabled>Less</button>
+                    <button class="More btn" onclick="More('cheese')">More</button>
+                </div>
+                <div class="meat_container">
+                    <div class="ingredient_name">Meat ($1.30)</div>
+                    <button class="Less btn" onclick="Less('meat')" disabled>Less</button>
+                    <button class="More btn" onclick="More('meat')">More</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
