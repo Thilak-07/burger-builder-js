@@ -1,6 +1,6 @@
 # Burger Builder
 
-## Screenshots
+## Screenshot
 ![App Screenshot](https://github.com/Thilak-07/Burger_Builder/blob/main/Screenshots/The%20Burger.png)
 
 ## 🔗 Links
